@@ -23,7 +23,6 @@ export default function HTML(props) {
         />
         {props.postBodyComponents}
 
-<h1> lalala </h1>
       </body>
     </html>
   )
