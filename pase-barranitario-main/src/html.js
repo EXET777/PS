@@ -13,7 +13,6 @@ export default function HTML(props) {
         />
         {props.headComponents}
       </head>
-<h1> lalala </h1>
 
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
@@ -23,6 +22,8 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
+
+<h1> lalala </h1>
       </body>
     </html>
   )
